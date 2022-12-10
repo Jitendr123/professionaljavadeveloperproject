@@ -24,6 +24,7 @@ public class FirstAndLastIndexOfACharacterInString {
 	}
 	public static void main(String arg[]) {
 		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a String");
 		String s=sc.nextLine();
 		char c=sc.next().charAt(0);
 		int first=0;
