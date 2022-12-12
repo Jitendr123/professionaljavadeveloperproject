@@ -20,6 +20,7 @@ public class AllUniqueSubsequences {
 		allUniqueSubsequeces(str,idx+1,newString,set);
 		return;
 	}
+	// this is my code update
 	public static void main(String arg[]) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a string :");
