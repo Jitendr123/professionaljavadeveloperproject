@@ -1,6 +1,6 @@
 package Jitendra;
 import java.util.*;
-public class AddANumberToCompleteAP {
+public class AddMissingNumberToCompleteAP {
 	static ArrayList<Integer> missingNumber(ArrayList<Integer>list,int cd){
 		for(int i=0;i<list.size()-1;i++){
             if((list.get(i+1)-list.get(i))==(list.get(i+2)-list.get(i+1))){
