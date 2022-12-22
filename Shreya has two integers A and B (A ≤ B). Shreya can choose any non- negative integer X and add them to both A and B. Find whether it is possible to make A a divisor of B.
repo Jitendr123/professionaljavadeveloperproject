@@ -1,0 +1,44 @@
+import java.io.*;
+import java.util.*;
+class Math {
+    public static void main (String[] args) {
+        // Your code here
+        Scanner sc=new Scanner(System.in);
+        int T=sc.nextInt();
+        while(T>0){
+            boolean p=false;
+            int A=sc.nextInt();
+            int B=sc.nextInt();
+            if((B-A)>=A){
+                System.out.println("YES");
+            }
+            else if(A==B){
+                System.out.println("YES");
+            }
+            else{
+                System.out.println("NO");
+            }
+            T--;
+        }
+    }
+}
+
+
+//Sample Input :
+//3
+//3 6
+//4 14
+//9 10
+
+//Sample Output :
+//YES
+//YES
+//NO
+
+
+
+//Explanation :
+//We can choose X = 0 and add them to 3 and 6. Thus, 3 is a factor of 6.
+//We can choose X = 1 and add them to 4 and 14. Thus, 4 + 1 = 5 is a factor of 14 + 1 = 15.
+//There is no possible value of X to add such that A becomes a factor of B.
+
